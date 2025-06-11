@@ -13,6 +13,7 @@ Metagenomic sequences should be trimmed to remove adapter sequences prior to ana
 #STEP 01: Calculate genome equivalents
 
 Genome equivalents are an estimate of the expected species diversity in a sample. This gives us a way to normalise coverage values across different metagenomic samples. We calculate genome equivalents using MicrobeCensus. You can use the following script and command to calculate GEQs:
+
     sbatch -o ./log/microbecensus_out.${name} --export dir=/path/to/reads,name=sample_name 01_microbecensus.sbatch
     #patient_name is the filename assigned to the paired metagenomic reads. This script assumes reads are saved as: ${dir}/${sample_name}.[12].fastq.gz
 
