@@ -71,34 +71,44 @@ for_plot <- nmds$points %>%
   as_tibble(rownames = "Sample") %>%
   inner_join(., metadata, by="Sample")
 
-plot_sub <- subset(for_plot, Target!='ARO')
+plot_sub <- filter(for_plot, 
+                   Target_Type == "ARO-Follow up" |
+                     Target_Type == "ARO-Baseline" |
+                     Target_Type == "ARO-Post FMT" |
+                     Target_Type == "CDI-Follow up" |
+                     Target_Type == "CDI-Baseline" |
+                     Target_Type == "CDI-Post FMT")
 
 
-c <- ggplot(for_plot, aes(x=MDS1, y=MDS2, color=Sample_type, shape=Target)) +
+c <- ggplot(for_plot, aes(x=MDS1, y=MDS2, color=Target_Type, shape=Target)) +
   geom_point(size=2.5) +
-  scale_color_manual(values=c("#ef476f", "#ffd166", "#06d6a0", "#073b4c", "#118ab2")) +
+  scale_color_manual(values=c("#a6e1fa", "#0e6ba8", "#0a2472", 
+                              "#a7c957", "#6a994e", "#386641",
+                              "#000814")) +
   scale_shape_manual(values=c(16,17,4)) +
   theme_minimal(base_size=16) +
-  stat_ellipse(data=plot_sub, aes(x=MDS1, y=MDS2, group = interaction(Sample_type, Target), color=Sample_type, fill=Sample_type), 
+  stat_ellipse(data=plot_sub, aes(x=MDS1, y=MDS2, group = interaction(Target_Type, Target), color=Target_Type, fill=Target_Type), 
                geom = "polygon",
-               alpha=0.1) +
+               alpha=0.1, show.legend=FALSE) +
+  scale_fill_manual(values=c("#a6e1fa", "#0e6ba8", "#0a2472", 
+                              "#a7c957", "#6a994e", "#386641"))+
   xlab("NMDS1") +
   ylab("NMDS2")
 c
 
 bray_dist <- vegdist(mat, method="bray", na.rm=FALSE)
 
-#adonis2(bray_dist~metadata$Study, 
-#        strata=metadata$patient_id,
-#        by="terms")
+adonis2(bray_dist~metadata$Study, 
+        strata=metadata$Patient_ID,
+        by="terms")
 
-#adonis2(bray_dist~metadata$Target.Type, 
-#        strata=metadata$patient_id,
-#        by="terms")
+adonis2(bray_dist~metadata$Target_Type, 
+        strata=metadata$Patient_ID,
+        by="terms")
 
-#adonis2(bray_dist~metadata$patient_id, 
-#        strata=metadata$patient_id,
-#        by="terms")
+adonis2(bray_dist~metadata$Patient_ID, 
+        strata=metadata$Patient_ID,
+        by="terms")
 
 ##############################combined plot##################################
 
