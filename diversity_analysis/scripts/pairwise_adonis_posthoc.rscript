@@ -1,0 +1,134 @@
+##############supp fig adonis post-hoc################
+###########need to conduct pairwise adonis tests and correct for multiple tests################3
+setwd("")
+
+library(vegan)
+
+all_abun_mat <- read.csv("./all_mag_abundance_mat.tsv", header=TRUE, sep='\t', row.names="Sample")
+all_metadata <- read.csv("./all_metadata.txt", header=TRUE, sep='\t')
+all_metadata$Patient_ID <- as.factor(all_metadata$Patient_ID)
+all_metadata$Study <- as.factor(all_metadata$Study)
+all_metadata$Target <- as.factor(all_metadata$Target)
+all_metadata$Type <- as.factor(all_metadata$Type)
+all_metadata$Target_Type <- as.factor(all_metadata$Target_Type)
+
+
+pairwise_p <- numeric() #initialise pairwise_p vector
+
+##############################################3
+
+pairwise_adonis <- function(a, b){
+  abun_table <- filter(all_abun_mat, Target_Type == a | Target_Type == b)
+  abun_table <- abun_table[, -which(names(abun_table) == "Target_Type")]
+  mat <- data.matrix(abun_table) 
+  #print(str(mat))
+  
+  sub_metadata <- filter(all_metadata, Target_Type == a | Target_Type == b)
+  #print(str(sub_metadata))
+  
+  bray_dist <- vegdist(mat, method="bray", na.rm=FALSE)
+  #print(str(bray_dist))
+  
+  adonis_test <- adonis2(bray_dist~sub_metadata$Target_Type, 
+          strata=sub_metadata$Patient_ID,
+          by="terms")
+  
+  p <- adonis_test$`Pr(>F)`[1]
+  p
+  
+  #pairwise_p[paste(a, ":", b)] <- adonis_test$`Pr(>F)`[1]
+}
+############################################################3
+
+#CDI-Baseline:ARO-Baseline
+pairwise_p['CDI-Baseline: ARO-Baseline'] <- 
+  pairwise_adonis("CDI-Baseline", "ARO-Baseline")
+
+#ARO-Follow up:ARO-Baseline
+pairwise_p['ARO-Follow up: ARO-Baseline'] <- 
+  pairwise_adonis("ARO-Follow up", "ARO-Baseline")
+
+#ARO-Follow up:CDI-Baseline
+pairwise_p['ARO-Follow up: CDI-Baseline'] <- 
+  pairwise_adonis("ARO-Follow up", "CDI-Baseline")
+
+#ARO-Follow up:Donor
+pairwise_p['ARO-Follow up:Donor'] <- 
+  pairwise_adonis("ARO-Follow up", "Donor")
+
+#ARO-Post FMT:ARO-Baseline
+pairwise_p['ARO-Post FMT: ARO-Baseline'] <- 
+  pairwise_adonis("ARO-Post FMT", "ARO-Baseline")
+
+#ARO-Post FMT:ARO-Follow up
+pairwise_p['ARO-Post FMT: ARO-Follow up'] <- 
+  pairwise_adonis("ARO-Post FMT", "ARO-Follow up")
+
+#ARO-Post FMT:CDI-Baseline
+pairwise_p['ARO-Post FMT: CDI-Baseline'] <- 
+  pairwise_adonis("ARO-Post FMT", "CDI-Baseline")
+
+#ARO-Post FMT:CDI-Follow up
+pairwise_p['ARO-Post FMT: CDI-Follow up'] <- 
+  pairwise_adonis("ARO-Post FMT", "CDI-Follow up")
+
+#ARO-Post FMT:CDI-Post FMT
+pairwise_p['ARO-Post FMT: CDI-Post FMT'] <- 
+  pairwise_adonis("ARO-Post FMT", "CDI-Post FMT")
+
+#ARO-Post FMT:Donor
+pairwise_p['ARO-Post FMT: Donor'] <- 
+  pairwise_adonis("ARO-Post FMT", "Donor")
+
+#CDI-Follow up:ARO-Baseline
+pairwise_p['CDI-Follow up: ARO-Baseline'] <- 
+  pairwise_adonis("CDI-Follow up", "ARO-Baseline")
+
+#CDI-Follow up:ARO-Follow up
+pairwise_p['CDI-Follow up: ARO-Follow up'] <- 
+  pairwise_adonis("CDI-Follow up", "ARO-Follow up")
+
+#CDI-Follow up:CDI-Baseline
+pairwise_p['CDI-Follow up: CDI-Baseline'] <- 
+  pairwise_adonis("CDI-Follow up", "CDI-Baseline")
+
+#CDI-Follow up:Donor
+pairwise_p['CDI-Follow up: Donor'] <- 
+  pairwise_adonis("CDI-Follow up", "Donor")
+
+#CDI-Post FMT:ARO-Baseline
+pairwise_p['CDI-Post FMT: ARO-Baseline'] <- 
+  pairwise_adonis("CDI-Post FMT", "ARO-Baseline")
+
+#CDI-Post FMT:ARO-Follow up
+pairwise_p['CDI-Post FMT: ARO-Follow up'] <- 
+  pairwise_adonis("CDI-Post FMT", "ARO-Follow up")
+
+#CDI-Post FMT:CDI-Baseline
+pairwise_p['CDI-Post FMT: CDI-Baseline'] <- 
+  pairwise_adonis("CDI-Post FMT", "CDI-Baseline")
+
+#CDI-Post FMT:CDI-Follow up
+pairwise_p['CDI-Post FMT: CDI-Follow up'] <- 
+  pairwise_adonis("CDI-Post FMT", "CDI-Follow up")
+
+#CDI-Post FMT:Donor
+pairwise_p['CDI-Post FMT: Donor'] <- 
+  pairwise_adonis("CDI-Post FMT", "Donor")
+
+#Donor:ARO-Baseline
+pairwise_p['Donor: ARO-Baseline'] <- 
+  pairwise_adonis("Donor", "ARO-Baseline")
+
+#Donor:CDI-Baseline
+pairwise_p['Donor: CDI-Baseline'] <- 
+  pairwise_adonis("Donor", "CDI-Baseline")
+
+
+pairwise_p
+
+#correct for multiple tests using benjamani-hotchberhg correction
+pairwise_adjust <- p.adjust(pairwise_p, method="BH")
+
+#return all corrected p_values < 0.05
+pairwise_adjust[pairwise_adjust < 0.05]
