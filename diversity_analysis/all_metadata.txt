@@ -1,0 +1,714 @@
+Sample	Study	Target	Patient_ID	Type	Time	Sample_type	Target_Type
+Ge_R3_V0	RGN	ARO	RGMGER3	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R3_V2	RGN	ARO	RGMGER3	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R4_V0	RGN	ARO	RGMGER4	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R4_V2	RGN	ARO	RGMGER4	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R7_V0	RGN	ARO	RGMGER7	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R7_V2	RGN	ARO	RGMGER7	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R9_V0	RGN	ARO	RGMGER9	Control	Baseline	Control-Baseline	ARO-Baseline
+Ge_R9_V2	RGN	ARO	RGMGER9	Control	Baseline	Control-Baseline	ARO-Baseline
+Pa_R10_V0	RGN	ARO	RGMPAR10	Control	Baseline	Control-Baseline	ARO-Baseline
+Pa_R10_V2	RGN	ARO	RGMPAR10	Control	Baseline	Control-Baseline	ARO-Baseline
+Pa_R4_V0	RGN	ARO	RGMPAR4	Control	Baseline	Control-Baseline	ARO-Baseline
+Pa_R4_V2	RGN	ARO	RGMPAR4	Control	Baseline	Control-Baseline	ARO-Baseline
+Pa_R7_V0	RGN	ARO	RGMPAR7	Control	Baseline	Control-Baseline	ARO-Baseline
+Pa_R7_V2	RGN	ARO	RGMPAR7	Control	Baseline	Control-Baseline	ARO-Baseline
+SRR11276925	KCD	CDI	KCM019	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11276929	KCD	CDI	KCM020	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11276938	KCD	CDI	KCM001	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11276954	KCD	CDI	KCM004	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11276975	KCD	CDI	KCM014	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11276990	KCD	CDI	KCM011	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11276997	KCD	CDI	KCM012	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277032	KCD	CDI	KCM016	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277043	KCD	CDI	KCM018	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277144	KCD	CDI	KCM008	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277157	KCD	CDI	KCM009	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277175	KCD	CDI	KCM010	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277183	KCD	CDI	KCM011	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277193	KCD	CDI	KCM013	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277200	KCD	CDI	KCM015	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277208	KCD	CDI	KCM017	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277216	KCD	CDI	KCM021	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277248	KCD	CDI	KCM002	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277256	KCD	CDI	KCM003	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277267	KCD	CDI	KCM006	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277290	KCD	CDI	KCM005	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR11277307	KCD	CDI	KCM007	Control	Baseline	Control-Baseline	CDI-Baseline
+SRR14871883	PRE	ARO	PM12	Control	Baseline	Control-Baseline	ARO-Baseline
+SRR14871888	PRE	ARO	PM12	Control	Baseline	Control-Baseline	ARO-Baseline
+Ut_R1_V0	RGN	ARO	RGMUTR1	Control	Baseline	Control-Baseline	ARO-Baseline
+Ut_R1_V2	RGN	ARO	RGMUTR1	Control	Baseline	Control-Baseline	ARO-Baseline
+Ut_R3_V0_2	RGN	ARO	RGMUTR3	Control	Baseline	Control-Baseline	ARO-Baseline
+Ut_R3_V2	RGN	ARO	RGMUTR3	Control	Baseline	Control-Baseline	ARO-Baseline
+CDI_FMT_01_Baseline_S1_R1	ROO	CDI	ROM01	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+CDI_FMT_02_Baseline_S2_R1	ROO	CDI	ROM02	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+CDI_FMT_07_Baseline_S5_R1	ROO	CDI	ROM07	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+Ge_R1_V0	RGN	ARO	RGMGER1	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R1_V2	RGN	ARO	RGMGER1	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R11_V0	RGN	ARO	RGMGER11	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R11_V2	RGN	ARO	RGMGER11	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R13_V0	RGN	ARO	RGMGER13	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R13_V2	RGN	ARO	RGMGER13	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R14_V0	RGN	ARO	RGMGER14	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R14_V2	RGN	ARO	RGMGER14	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R2_V0	RGN	ARO	RGMGER2	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R2_V2	RGN	ARO	RGMGER2	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R5_V0	RGN	ARO	RGMGER5	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R5_V2	RGN	ARO	RGMGER5	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R6_V0	RGN	ARO	RGMGER6	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R6_V2	RGN	ARO	RGMGER6	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R8_V0	RGN	ARO	RGMGER8	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_R8_V2	RGN	ARO	RGMGER8	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R14_V0	RGN	ARO	RGMPAR14	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R14_V2	RGN	ARO	RGMPAR14	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R2_V0	RGN	ARO	RGMPAR2	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R2_V2	RGN	ARO	RGMPAR2	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R3_V0	RGN	ARO	RGMPAR3	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R3_V2	RGN	ARO	RGMPAR3	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R5_V0	RGN	ARO	RGMPAR5	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Pa_R5_V2	RGN	ARO	RGMPAR5	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR11276924	KCD	CDI	KCM119	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11276946	KCD	CDI	KCM203	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11276953	KCD	CDI	KCM204	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11276964	KCD	CDI	KCM215	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11276969	KCD	CDI	KCM115	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11276982	KCD	CDI	KCM216	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11276998	KCD	CDI	KCM110	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277006	KCD	CDI	KCM111	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277013	KCD	CDI	KCM112	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277018	KCD	CDI	KCM217	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277035	KCD	CDI	KCM218	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277036	KCD	CDI	KCM219	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277047	KCD	CDI	KCM107	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277051	KCD	CDI	KCM109	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277055	KCD	CDI	KCM210	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277059	KCD	CDI	KCM211	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277063	KCD	CDI	KCM213	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277068	KCD	CDI	KCM214	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277072	KCD	CDI	KCM113	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277073	KCD	CDI	KCM122	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277136	KCD	CDI	KCM108	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277155	KCD	CDI	KCM208	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277167	KCD	CDI	KCM209	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277189	KCD	CDI	KCM114	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277196	KCD	CDI	KCM116	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277204	KCD	CDI	KCM117	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277220	KCD	CDI	KCM222	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277232	KCD	CDI	KCM101	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277236	KCD	CDI	KCM201	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277240	KCD	CDI	KCM102	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277243	KCD	CDI	KCM202	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277252	KCD	CDI	KCM103	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277260	KCD	CDI	KCM205	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277263	KCD	CDI	KCM105	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277272	KCD	CDI	KCM220	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277275	KCD	CDI	KCM221	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277279	KCD	CDI	KCM120	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277282	KCD	CDI	KCM121	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277289	KCD	CDI	KCM206	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277299	KCD	CDI	KCM104	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277312	KCD	CDI	KCM106	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR11277322	KCD	CDI	KCM118	Recipient	Baseline	Recipient-Baseline	CDI-Baseline
+SRR14868367	PRE	ARO	PM02	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868368	PRE	ARO	PM07	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868373	PRE	ARO	PM07	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868374	PRE	ARO	PM06	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868378	PRE	ARO	PM06	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868379	PRE	ARO	PM04	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868388	PRE	ARO	PM04	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868395	PRE	ARO	PM03	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868398	PRE	ARO	PM02	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868462	PRE	ARO	PM03	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868463	PRE	ARO	PM01	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868464	PRE	ARO	PM01	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868465	PRE	ARO	PM01	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868469	PRE	ARO	PM03	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14868472	PRE	ARO	PM01	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871878	PRE	ARO	PM13	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871882	PRE	ARO	PM13	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871889	PRE	ARO	PM09	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871890	PRE	ARO	PM09	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871891	PRE	ARO	PM09	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871894	PRE	ARO	PM09	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871895	PRE	ARO	PM08	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871897	PRE	ARO	PM08	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871898	PRE	ARO	PM08	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871902	PRE	ARO	PM08	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871906	PRE	ARO	PM08	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871908	PRE	ARO	PM07	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871917	PRE	ARO	PM07	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871928	PRE	ARO	PM05	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871933	PRE	ARO	PM05	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR14871937	PRE	ARO	PM05	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402177	FDX	ARO	FDM17	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402181	FDX	ARO	FDM19	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402185	FDX	ARO	FDM20	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402194	FDX	ARO	FDM25	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402196	FDX	ARO	FDM18	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402210	FDX	ARO	FDM26	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402212	FDX	ARO	FDM21	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402213	FDX	ARO	FDM24	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402215	FDX	ARO	FDM27	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402221	FDX	ARO	FDM22	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402226	FDX	ARO	FDM23	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+SRR29402232	FDX	ARO	FDM28	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+TA_R1_V0	RGN	ARO	RGMTAR1	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+TA_R1_V2	RGN	ARO	RGMTAR1	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ut_R2_V0	RGN	ARO	RGMUTR2	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ut_R2_V2	RGN	ARO	RGMUTR2	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ut_R4_V0	RGN	ARO	RGMUTR4	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ut_R4_V2	RGN	ARO	RGMUTR4	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ut_R5_V0	RGN	ARO	RGMUTR5	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ut_R5_V2	RGN	ARO	RGMUTR5	Recipient	Baseline	Recipient-Baseline	ARO-Baseline
+Ge_D3	RGN	Donor	RGDGED3	Donor	Donor	Donor	Donor-Donor
+Ge_D4	RGN	Donor	RGDGED4	Donor	Donor	Donor	Donor-Donor
+Ge_D6_1	RGN	Donor	RGDGED6	Donor	Donor	Donor	Donor-Donor
+Ge_D6_2	RGN	Donor	RGDGED6	Donor	Donor	Donor	Donor-Donor
+Ge_D7_1_1	RGN	Donor	RGDGED7	Donor	Donor	Donor	Donor-Donor
+Ge_D7_1_2	RGN	Donor	RGDGED7	Donor	Donor	Donor	Donor-Donor
+Ge_D7_2_1	RGN	Donor	RGDGED7	Donor	Donor	Donor	Donor-Donor
+Ge_D7_2_2	RGN	Donor	RGDGED7	Donor	Donor	Donor	Donor-Donor
+Pa_D14_1	RGN	Donor	RGDPAD14	Donor	Donor	Donor	Donor-Donor
+Pa_D14_2	RGN	Donor	RGDPAD14	Donor	Donor	Donor	Donor-Donor
+Pa_D6_1	RGN	Donor	RGDPAD6	Donor	Donor	Donor	Donor-Donor
+Pa_D6_2	RGN	Donor	RGDPAD6	Donor	Donor	Donor	Donor-Donor
+Pa_D7_1	RGN	Donor	RGDPAD7	Donor	Donor	Donor	Donor-Donor
+Pa_D7_2	RGN	Donor	RGDPAD7	Donor	Donor	Donor	Donor-Donor
+SRR11276920	KCD	Donor	KCDS22	Donor	Donor	Donor	Donor-Donor
+SRR11276931	KCD	Donor	KCDS21	Donor	Donor	Donor	Donor-Donor
+SRR11276932	KCD	Donor	KCDS03	Donor	Donor	Donor	Donor-Donor
+SRR11276933	KCD	Donor	KCDS41	Donor	Donor	Donor	Donor-Donor
+SRR11276934	KCD	Donor	KCDS05	Donor	Donor	Donor	Donor-Donor
+SRR11276945	KCD	Donor	KCDS40	Donor	Donor	Donor	Donor-Donor
+SRR11276956	KCD	Donor	KCDS39	Donor	Donor	Donor	Donor-Donor
+SRR11276966	KCD	Donor	KCDS28	Donor	Donor	Donor	Donor-Donor
+SRR11276977	KCD	Donor	KCDS27	Donor	Donor	Donor	Donor-Donor
+SRR11276988	KCD	Donor	KCDS26	Donor	Donor	Donor	Donor-Donor
+SRR11276989	KCD	Donor	KCDS04	Donor	Donor	Donor	Donor-Donor
+SRR11277000	KCD	Donor	KCDS30	Donor	Donor	Donor	Donor-Donor
+SRR11277011	KCD	Donor	KCDS29	Donor	Donor	Donor	Donor-Donor
+SRR11277027	KCD	Donor	KCDS25	Donor	Donor	Donor	Donor-Donor
+SRR11277038	KCD	Donor	KCDS24	Donor	Donor	Donor	Donor-Donor
+SRR11277054	KCD	Donor	KCDS15	Donor	Donor	Donor	Donor-Donor
+SRR11277065	KCD	Donor	KCDS14	Donor	Donor	Donor	Donor-Donor
+SRR11277074	KCD	Donor	KCDS85	Donor	Donor	Donor	Donor-Donor
+SRR11277075	KCD	Donor	KCDS84	Donor	Donor	Donor	Donor-Donor
+SRR11277076	KCD	Donor	KCDS83	Donor	Donor	Donor	Donor-Donor
+SRR11277077	KCD	Donor	KCDS82	Donor	Donor	Donor	Donor-Donor
+SRR11277078	KCD	Donor	KCDS81	Donor	Donor	Donor	Donor-Donor
+SRR11277079	KCD	Donor	KCDS09	Donor	Donor	Donor	Donor-Donor
+SRR11277080	KCD	Donor	KCDS80	Donor	Donor	Donor	Donor-Donor
+SRR11277081	KCD	Donor	KCDS79	Donor	Donor	Donor	Donor-Donor
+SRR11277082	KCD	Donor	KCDS78	Donor	Donor	Donor	Donor-Donor
+SRR11277083	KCD	Donor	KCDS77	Donor	Donor	Donor	Donor-Donor
+SRR11277084	KCD	Donor	KCDS76	Donor	Donor	Donor	Donor-Donor
+SRR11277085	KCD	Donor	KCDS75	Donor	Donor	Donor	Donor-Donor
+SRR11277086	KCD	Donor	KCDS74	Donor	Donor	Donor	Donor-Donor
+SRR11277087	KCD	Donor	KCDS73	Donor	Donor	Donor	Donor-Donor
+SRR11277088	KCD	Donor	KCDS72	Donor	Donor	Donor	Donor-Donor
+SRR11277089	KCD	Donor	KCDS71	Donor	Donor	Donor	Donor-Donor
+SRR11277090	KCD	Donor	KCDS08	Donor	Donor	Donor	Donor-Donor
+SRR11277091	KCD	Donor	KCDS70	Donor	Donor	Donor	Donor-Donor
+SRR11277092	KCD	Donor	KCDS69	Donor	Donor	Donor	Donor-Donor
+SRR11277093	KCD	Donor	KCDS68	Donor	Donor	Donor	Donor-Donor
+SRR11277094	KCD	Donor	KCDS67	Donor	Donor	Donor	Donor-Donor
+SRR11277095	KCD	Donor	KCDS66	Donor	Donor	Donor	Donor-Donor
+SRR11277096	KCD	Donor	KCDS65	Donor	Donor	Donor	Donor-Donor
+SRR11277097	KCD	Donor	KCDS64	Donor	Donor	Donor	Donor-Donor
+SRR11277098	KCD	Donor	KCDS63	Donor	Donor	Donor	Donor-Donor
+SRR11277099	KCD	Donor	KCDS62	Donor	Donor	Donor	Donor-Donor
+SRR11277100	KCD	Donor	KCDS61	Donor	Donor	Donor	Donor-Donor
+SRR11277101	KCD	Donor	KCDS07	Donor	Donor	Donor	Donor-Donor
+SRR11277102	KCD	Donor	KCDS60	Donor	Donor	Donor	Donor-Donor
+SRR11277103	KCD	Donor	KCDS59	Donor	Donor	Donor	Donor-Donor
+SRR11277104	KCD	Donor	KCDS58	Donor	Donor	Donor	Donor-Donor
+SRR11277105	KCD	Donor	KCDS57	Donor	Donor	Donor	Donor-Donor
+SRR11277106	KCD	Donor	KCDS56	Donor	Donor	Donor	Donor-Donor
+SRR11277107	KCD	Donor	KCDS55	Donor	Donor	Donor	Donor-Donor
+SRR11277108	KCD	Donor	KCDS54	Donor	Donor	Donor	Donor-Donor
+SRR11277109	KCD	Donor	KCDS53	Donor	Donor	Donor	Donor-Donor
+SRR11277110	KCD	Donor	KCDS52	Donor	Donor	Donor	Donor-Donor
+SRR11277111	KCD	Donor	KCDS51	Donor	Donor	Donor	Donor-Donor
+SRR11277112	KCD	Donor	KCDS06	Donor	Donor	Donor	Donor-Donor
+SRR11277113	KCD	Donor	KCDS50	Donor	Donor	Donor	Donor-Donor
+SRR11277114	KCD	Donor	KCDS49	Donor	Donor	Donor	Donor-Donor
+SRR11277115	KCD	Donor	KCDS48	Donor	Donor	Donor	Donor-Donor
+SRR11277116	KCD	Donor	KCDS47	Donor	Donor	Donor	Donor-Donor
+SRR11277117	KCD	Donor	KCDS46	Donor	Donor	Donor	Donor-Donor
+SRR11277118	KCD	Donor	KCDS45	Donor	Donor	Donor	Donor-Donor
+SRR11277119	KCD	Donor	KCDS44	Donor	Donor	Donor	Donor-Donor
+SRR11277120	KCD	Donor	KCDS43	Donor	Donor	Donor	Donor-Donor
+SRR11277121	KCD	Donor	KCDS42	Donor	Donor	Donor	Donor-Donor
+SRR11277129	KCD	Donor	KCDS36	Donor	Donor	Donor	Donor-Donor
+SRR11277140	KCD	Donor	KCDS35	Donor	Donor	Donor	Donor-Donor
+SRR11277151	KCD	Donor	KCDS34	Donor	Donor	Donor	Donor-Donor
+SRR11277162	KCD	Donor	KCDS33	Donor	Donor	Donor	Donor-Donor
+SRR11277184	KCD	Donor	KCDS31	Donor	Donor	Donor	Donor-Donor
+SRR11277188	KCD	Donor	KCDS13	Donor	Donor	Donor	Donor-Donor
+SRR11277199	KCD	Donor	KCDS12	Donor	Donor	Donor	Donor-Donor
+SRR11277210	KCD	Donor	KCDS11	Donor	Donor	Donor	Donor-Donor
+SRR11277211	KCD	Donor	KCDS02	Donor	Donor	Donor	Donor-Donor
+SRR11277212	KCD	Donor	KCDS01	Donor	Donor	Donor	Donor-Donor
+SRR11277224	KCD	Donor	KCDS20	Donor	Donor	Donor	Donor-Donor
+SRR11277235	KCD	Donor	KCDS19	Donor	Donor	Donor	Donor-Donor
+SRR11277246	KCD	Donor	KCDS18	Donor	Donor	Donor	Donor-Donor
+SRR11277257	KCD	Donor	KCDS17	Donor	Donor	Donor	Donor-Donor
+SRR11277268	KCD	Donor	KCDS16	Donor	Donor	Donor	Donor-Donor
+SRR11277280	KCD	Donor	KCDS10	Donor	Donor	Donor	Donor-Donor
+SRR11277291	KCD	Donor	KCDS38	Donor	Donor	Donor	Donor-Donor
+SRR11277302	KCD	Donor	KCDS37	Donor	Donor	Donor	Donor-Donor
+SRR11277317	KCD	Donor	KCDS23	Donor	Donor	Donor	Donor-Donor
+SRR14868468	PRE	Donor	PD01	Donor	Donor	Donor	Donor-Donor
+SRR14871872	PRE	Donor	PD01	Donor	Donor	Donor	Donor-Donor
+SRR14871873	PRE	Donor	PD01	Donor	Donor	Donor	Donor-Donor
+SRR14871875	PRE	Donor	PD01	Donor	Donor	Donor	Donor-Donor
+SRR14871876	PRE	Donor	PD01	Donor	Donor	Donor	Donor-Donor
+SRR14871877	PRE	Donor	PD01	Donor	Donor	Donor	Donor-Donor
+SRR29402189	FDX	Donor	FDD02	Donor	Donor	Donor	Donor-Donor
+SRR29402191	FDX	Donor	FDD00	Donor	Donor	Donor	Donor-Donor
+SRR29402192	FDX	Donor	FDD00	Donor	Donor	Donor	Donor-Donor
+SRR29402200	FDX	Donor	FDD00	Donor	Donor	Donor	Donor-Donor
+SRR29402224	FDX	Donor	FDD00	Donor	Donor	Donor	Donor-Donor
+TA_D1_1	RGN	Donor	RGDTAD1	Donor	Donor	Donor	Donor-Donor
+TA_D1_2	RGN	Donor	RGDTAD1	Donor	Donor	Donor	Donor-Donor
+Ut_D14_1	RGN	Donor	RGDUTD14	Donor	Donor	Donor	Donor-Donor
+Ut_D14_2	RGN	Donor	RGDUTD14	Donor	Donor	Donor	Donor-Donor
+Ut_D18_1	RGN	Donor	RGDUTD18	Donor	Donor	Donor	Donor-Donor
+Ut_D18_2	RGN	Donor	RGDUTD18	Donor	Donor	Donor	Donor-Donor
+Ge_R3_V3	RGN	ARO	RGMGER3	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R3_V4	RGN	ARO	RGMGER3	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R3_V5	RGN	ARO	RGMGER3	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R4_V3	RGN	ARO	RGMGER4	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R4_V4	RGN	ARO	RGMGER4	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R4_V5	RGN	ARO	RGMGER4	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R7_V3	RGN	ARO	RGMGER7	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R7_V4	RGN	ARO	RGMGER7	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R7_V5	RGN	ARO	RGMGER7	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R9_V3	RGN	ARO	RGMGER9	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R9_V4	RGN	ARO	RGMGER9	Control	Follow up	Control-Follow up	ARO-Follow up
+Ge_R9_V5	RGN	ARO	RGMGER9	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R10_V3	RGN	ARO	RGMPAR10	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R10_V4	RGN	ARO	RGMPAR10	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R10_V5	RGN	ARO	RGMPAR10	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R4_V3	RGN	ARO	RGMPAR4	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R4_V4	RGN	ARO	RGMPAR4	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R4_V5	RGN	ARO	RGMPAR4	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R7_V3	RGN	ARO	RGMPAR7	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R7_V4	RGN	ARO	RGMPAR7	Control	Follow up	Control-Follow up	ARO-Follow up
+Pa_R7_V5	RGN	ARO	RGMPAR7	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR11276926	KCD	CDI	KCM019	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276927	KCD	CDI	KCM019	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276928	KCD	CDI	KCM019	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276930	KCD	CDI	KCM020	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276935	KCD	CDI	KCM001	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276936	KCD	CDI	KCM001	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276937	KCD	CDI	KCM001	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276955	KCD	CDI	KCM004	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276957	KCD	CDI	KCM004	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276973	KCD	CDI	KCM013	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276974	KCD	CDI	KCM013	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276976	KCD	CDI	KCM014	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276978	KCD	CDI	KCM014	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276979	KCD	CDI	KCM014	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276980	KCD	CDI	KCM014	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276981	KCD	CDI	KCM014	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276991	KCD	CDI	KCM011	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276992	KCD	CDI	KCM011	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276993	KCD	CDI	KCM012	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276994	KCD	CDI	KCM012	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276995	KCD	CDI	KCM012	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11276996	KCD	CDI	KCM012	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277021	KCD	CDI	KCM015	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277024	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277025	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277026	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277028	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277029	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277030	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277031	KCD	CDI	KCM016	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277044	KCD	CDI	KCM018	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277128	KCD	CDI	KCM001	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277142	KCD	CDI	KCM008	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277143	KCD	CDI	KCM008	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277145	KCD	CDI	KCM008	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277146	KCD	CDI	KCM008	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277147	KCD	CDI	KCM008	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277148	KCD	CDI	KCM008	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277156	KCD	CDI	KCM009	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277158	KCD	CDI	KCM009	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277159	KCD	CDI	KCM009	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277160	KCD	CDI	KCM009	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277161	KCD	CDI	KCM009	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277163	KCD	CDI	KCM009	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277176	KCD	CDI	KCM010	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277177	KCD	CDI	KCM010	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277178	KCD	CDI	KCM010	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277182	KCD	CDI	KCM011	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277190	KCD	CDI	KCM013	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277191	KCD	CDI	KCM013	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277192	KCD	CDI	KCM013	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277197	KCD	CDI	KCM015	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277198	KCD	CDI	KCM015	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277205	KCD	CDI	KCM017	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277206	KCD	CDI	KCM017	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277207	KCD	CDI	KCM017	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277213	KCD	CDI	KCM020	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277215	KCD	CDI	KCM020	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277217	KCD	CDI	KCM021	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277244	KCD	CDI	KCM002	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277245	KCD	CDI	KCM002	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277247	KCD	CDI	KCM002	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277253	KCD	CDI	KCM003	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277254	KCD	CDI	KCM003	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277255	KCD	CDI	KCM003	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277264	KCD	CDI	KCM006	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277265	KCD	CDI	KCM006	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277266	KCD	CDI	KCM006	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277292	KCD	CDI	KCM005	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277293	KCD	CDI	KCM005	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277294	KCD	CDI	KCM005	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277300	KCD	CDI	KCM006	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277301	KCD	CDI	KCM006	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277303	KCD	CDI	KCM007	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277304	KCD	CDI	KCM007	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277305	KCD	CDI	KCM007	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277306	KCD	CDI	KCM007	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277313	KCD	CDI	KCM018	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277314	KCD	CDI	KCM018	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277315	KCD	CDI	KCM018	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR11277316	KCD	CDI	KCM018	Control	Follow up	Control-Follow up	CDI-Follow up
+SRR14868369	PRE	ARO	PM07	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14868371	PRE	ARO	PM07	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14868372	PRE	ARO	PM07	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14868460	PRE	ARO	PM03	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14868461	PRE	ARO	PM03	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14868470	PRE	ARO	PM03	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871884	PRE	ARO	PM12	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871886	PRE	ARO	PM12	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871887	PRE	ARO	PM12	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871903	PRE	ARO	PM08	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871904	PRE	ARO	PM08	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871905	PRE	ARO	PM08	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871934	PRE	ARO	PM05	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871935	PRE	ARO	PM05	Control	Follow up	Control-Follow up	ARO-Follow up
+SRR14871936	PRE	ARO	PM05	Control	Follow up	Control-Follow up	ARO-Follow up
+Ut_R1_V3	RGN	ARO	RGMUTR1	Control	Follow up	Control-Follow up	ARO-Follow up
+Ut_R1_V4	RGN	ARO	RGMUTR1	Control	Follow up	Control-Follow up	ARO-Follow up
+Ut_R1_V5	RGN	ARO	RGMUTR1	Control	Follow up	Control-Follow up	ARO-Follow up
+Ut_R3_V3	RGN	ARO	RGMUTR3	Control	Follow up	Control-Follow up	ARO-Follow up
+Ut_R3_V4	RGN	ARO	RGMUTR3	Control	Follow up	Control-Follow up	ARO-Follow up
+CDI_FMT_01_090_S55_R1	ROO	CDI	ROM01	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_01_180_S62_R1	ROO	CDI	ROM01	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_02_030_S48_R1	ROO	CDI	ROM02	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_02_090_S56_R1	ROO	CDI	ROM02	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_02_180_S63_R1	ROO	CDI	ROM02	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_03_030_S49_R1	ROO	CDI	ROM03	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_03_180_S64_R1	ROO	CDI	ROM03	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_07_030_S51_R1	ROO	CDI	ROM07	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_07_090_S59_R1	ROO	CDI	ROM07	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_07_180_S66_R1	ROO	CDI	ROM07	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_09_030_S53_R1	ROO	CDI	ROM09	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_09_090_S60_R1	ROO	CDI	ROM09	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+CDI_FMT_09_180_S67_R1	ROO	CDI	ROM09	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+Ge_R1_V3	RGN	ARO	RGMGER1	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R1_V4	RGN	ARO	RGMGER1	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R1_V5	RGN	ARO	RGMGER1	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R11_V3	RGN	ARO	RGMGER11	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R11_V4	RGN	ARO	RGMGER11	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R11_V5	RGN	ARO	RGMGER11	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R13_V3	RGN	ARO	RGMGER13	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R13_V4	RGN	ARO	RGMGER13	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R13_V5	RGN	ARO	RGMGER13	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R14_V3	RGN	ARO	RGMGER14	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R14_V4	RGN	ARO	RGMGER14	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R14_V5	RGN	ARO	RGMGER14	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R2_V3	RGN	ARO	RGMGER2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R2_V4	RGN	ARO	RGMGER2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R2_V5	RGN	ARO	RGMGER2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R5_V3	RGN	ARO	RGMGER5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R5_V4	RGN	ARO	RGMGER5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R5_V5	RGN	ARO	RGMGER5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R6_V3	RGN	ARO	RGMGER6	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R6_V4	RGN	ARO	RGMGER6	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R6_V5	RGN	ARO	RGMGER6	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R8_V3	RGN	ARO	RGMGER8	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R8_V4	RGN	ARO	RGMGER8	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ge_R8_V5	RGN	ARO	RGMGER8	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R14_V3	RGN	ARO	RGMPAR14	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R14_V4	RGN	ARO	RGMPAR14	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R2_V3	RGN	ARO	RGMPAR2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R2_V4	RGN	ARO	RGMPAR2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R2_V5	RGN	ARO	RGMPAR2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R3_V3	RGN	ARO	RGMPAR3	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R3_V4	RGN	ARO	RGMPAR3	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R3_V5	RGN	ARO	RGMPAR3	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R5_V3	RGN	ARO	RGMPAR5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R5_V4	RGN	ARO	RGMPAR5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Pa_R5_V5	RGN	ARO	RGMPAR5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR11276916	KCD	CDI	KCM118	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276917	KCD	CDI	KCM118	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276918	KCD	CDI	KCM118	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276919	KCD	CDI	KCM118	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276921	KCD	CDI	KCM118	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276922	KCD	CDI	KCM119	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276923	KCD	CDI	KCM119	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276939	KCD	CDI	KCM203	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276940	KCD	CDI	KCM203	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276941	KCD	CDI	KCM203	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276942	KCD	CDI	KCM203	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276943	KCD	CDI	KCM203	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276944	KCD	CDI	KCM203	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276947	KCD	CDI	KCM103	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276948	KCD	CDI	KCM204	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276949	KCD	CDI	KCM204	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276950	KCD	CDI	KCM204	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276951	KCD	CDI	KCM204	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276952	KCD	CDI	KCM204	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276958	KCD	CDI	KCM205	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276959	KCD	CDI	KCM205	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276960	KCD	CDI	KCM206	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276961	KCD	CDI	KCM215	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276962	KCD	CDI	KCM215	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276963	KCD	CDI	KCM215	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276965	KCD	CDI	KCM215	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276967	KCD	CDI	KCM215	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276968	KCD	CDI	KCM215	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276970	KCD	CDI	KCM115	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276971	KCD	CDI	KCM115	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276972	KCD	CDI	KCM115	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276983	KCD	CDI	KCM216	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276984	KCD	CDI	KCM216	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276985	KCD	CDI	KCM216	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276986	KCD	CDI	KCM216	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276987	KCD	CDI	KCM217	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11276999	KCD	CDI	KCM110	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277001	KCD	CDI	KCM110	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277002	KCD	CDI	KCM110	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277003	KCD	CDI	KCM110	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277004	KCD	CDI	KCM111	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277005	KCD	CDI	KCM111	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277007	KCD	CDI	KCM112	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277008	KCD	CDI	KCM112	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277009	KCD	CDI	KCM112	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277010	KCD	CDI	KCM112	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277012	KCD	CDI	KCM112	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277014	KCD	CDI	KCM113	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277015	KCD	CDI	KCM113	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277016	KCD	CDI	KCM114	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277017	KCD	CDI	KCM217	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277019	KCD	CDI	KCM116	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277020	KCD	CDI	KCM116	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277022	KCD	CDI	KCM117	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277023	KCD	CDI	KCM117	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277033	KCD	CDI	KCM218	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277034	KCD	CDI	KCM218	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277037	KCD	CDI	KCM219	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277039	KCD	CDI	KCM219	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277040	KCD	CDI	KCM219	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277041	KCD	CDI	KCM219	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277042	KCD	CDI	KCM219	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277045	KCD	CDI	KCM107	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277046	KCD	CDI	KCM107	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277048	KCD	CDI	KCM109	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277049	KCD	CDI	KCM109	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277050	KCD	CDI	KCM109	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277052	KCD	CDI	KCM210	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277053	KCD	CDI	KCM210	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277056	KCD	CDI	KCM211	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277057	KCD	CDI	KCM211	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277058	KCD	CDI	KCM211	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277060	KCD	CDI	KCM213	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277061	KCD	CDI	KCM213	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277062	KCD	CDI	KCM213	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277064	KCD	CDI	KCM214	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277066	KCD	CDI	KCM214	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277067	KCD	CDI	KCM214	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277069	KCD	CDI	KCM113	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277070	KCD	CDI	KCM113	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277071	KCD	CDI	KCM113	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277122	KCD	CDI	KCM101	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277123	KCD	CDI	KCM101	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277124	KCD	CDI	KCM201	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277125	KCD	CDI	KCM102	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277126	KCD	CDI	KCM102	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277127	KCD	CDI	KCM202	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277130	KCD	CDI	KCM107	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277131	KCD	CDI	KCM108	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277132	KCD	CDI	KCM108	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277133	KCD	CDI	KCM108	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277134	KCD	CDI	KCM108	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277135	KCD	CDI	KCM108	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277149	KCD	CDI	KCM109	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277150	KCD	CDI	KCM109	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277152	KCD	CDI	KCM208	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277153	KCD	CDI	KCM208	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277154	KCD	CDI	KCM208	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277164	KCD	CDI	KCM209	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277165	KCD	CDI	KCM209	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277166	KCD	CDI	KCM209	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277168	KCD	CDI	KCM210	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277169	KCD	CDI	KCM211	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277179	KCD	CDI	KCM213	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277180	KCD	CDI	KCM214	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277181	KCD	CDI	KCM214	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277185	KCD	CDI	KCM114	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277186	KCD	CDI	KCM114	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277187	KCD	CDI	KCM114	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277194	KCD	CDI	KCM116	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277195	KCD	CDI	KCM116	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277201	KCD	CDI	KCM117	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277202	KCD	CDI	KCM117	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277203	KCD	CDI	KCM117	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277209	KCD	CDI	KCM220	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277214	KCD	CDI	KCM118	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277218	KCD	CDI	KCM120	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277219	KCD	CDI	KCM120	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277221	KCD	CDI	KCM222	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277222	KCD	CDI	KCM222	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277226	KCD	CDI	KCM121	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277227	KCD	CDI	KCM121	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277228	KCD	CDI	KCM122	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277229	KCD	CDI	KCM101	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277230	KCD	CDI	KCM101	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277231	KCD	CDI	KCM101	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277233	KCD	CDI	KCM201	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277234	KCD	CDI	KCM201	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277237	KCD	CDI	KCM102	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277238	KCD	CDI	KCM102	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277239	KCD	CDI	KCM102	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277241	KCD	CDI	KCM202	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277242	KCD	CDI	KCM202	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277249	KCD	CDI	KCM103	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277250	KCD	CDI	KCM103	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277251	KCD	CDI	KCM103	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277258	KCD	CDI	KCM205	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277259	KCD	CDI	KCM205	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277261	KCD	CDI	KCM105	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277262	KCD	CDI	KCM105	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277269	KCD	CDI	KCM107	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277270	KCD	CDI	KCM220	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277271	KCD	CDI	KCM220	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277273	KCD	CDI	KCM221	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277274	KCD	CDI	KCM221	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277276	KCD	CDI	KCM120	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277277	KCD	CDI	KCM120	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277278	KCD	CDI	KCM120	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277281	KCD	CDI	KCM121	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277283	KCD	CDI	KCM122	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277284	KCD	CDI	KCM122	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277285	KCD	CDI	KCM206	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277286	KCD	CDI	KCM206	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277287	KCD	CDI	KCM206	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277288	KCD	CDI	KCM206	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277295	KCD	CDI	KCM104	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277296	KCD	CDI	KCM104	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277297	KCD	CDI	KCM104	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277298	KCD	CDI	KCM104	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277308	KCD	CDI	KCM106	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277309	KCD	CDI	KCM106	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277310	KCD	CDI	KCM106	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277311	KCD	CDI	KCM106	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277318	KCD	CDI	KCM220	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277319	KCD	CDI	KCM220	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277320	KCD	CDI	KCM221	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR11277321	KCD	CDI	KCM221	Recipient	Post FMT	Recipient-Post FMT	CDI-Post FMT
+SRR14868370	PRE	ARO	PM02	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868375	PRE	ARO	PM06	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868376	PRE	ARO	PM06	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868377	PRE	ARO	PM06	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868380	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868381	PRE	ARO	PM02	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868382	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868383	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868384	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868385	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868386	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868387	PRE	ARO	PM04	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868389	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868390	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868391	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868392	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868393	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868394	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868396	PRE	ARO	PM03	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868397	PRE	ARO	PM02	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868466	PRE	ARO	PM01	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868467	PRE	ARO	PM01	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14868471	PRE	ARO	PM01	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871879	PRE	ARO	PM13	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871880	PRE	ARO	PM13	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871881	PRE	ARO	PM13	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871892	PRE	ARO	PM09	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871893	PRE	ARO	PM09	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871899	PRE	ARO	PM08	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871900	PRE	ARO	PM08	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871901	PRE	ARO	PM08	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871910	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871911	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871912	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871913	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871914	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871915	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871916	PRE	ARO	PM07	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871930	PRE	ARO	PM05	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871931	PRE	ARO	PM05	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR14871932	PRE	ARO	PM05	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402174	FDX	ARO	FDM20	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402175	FDX	ARO	FDM20	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402176	FDX	ARO	FDM20	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402178	FDX	ARO	FDM17	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402179	FDX	ARO	FDM17	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402180	FDX	ARO	FDM17	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402182	FDX	ARO	FDM19	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402183	FDX	ARO	FDM19	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402184	FDX	ARO	FDM19	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402186	FDX	ARO	FDM19	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402187	FDX	ARO	FDM19	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402188	FDX	ARO	FDM19	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402193	FDX	ARO	FDM22	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402195	FDX	ARO	FDM21	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402197	FDX	ARO	FDM24	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402199	FDX	ARO	FDM23	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402201	FDX	ARO	FDM23	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402202	FDX	ARO	FDM27	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402203	FDX	ARO	FDM23	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402204	FDX	ARO	FDM25	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402205	FDX	ARO	FDM26	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402206	FDX	ARO	FDM22	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402207	FDX	ARO	FDM18	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402208	FDX	ARO	FDM26	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402209	FDX	ARO	FDM20	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402211	FDX	ARO	FDM24	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402214	FDX	ARO	FDM24	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402216	FDX	ARO	FDM21	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402217	FDX	ARO	FDM25	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402218	FDX	ARO	FDM18	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402219	FDX	ARO	FDM23	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402220	FDX	ARO	FDM21	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402222	FDX	ARO	FDM22	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402223	FDX	ARO	FDM21	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402225	FDX	ARO	FDM22	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402227	FDX	ARO	FDM28	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402228	FDX	ARO	FDM28	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402229	FDX	ARO	FDM18	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402230	FDX	ARO	FDM28	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402231	FDX	ARO	FDM28	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402233	FDX	ARO	FDM27	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402234	FDX	ARO	FDM27	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402235	FDX	ARO	FDM27	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402236	FDX	ARO	FDM26	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402237	FDX	ARO	FDM26	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402238	FDX	ARO	FDM25	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402239	FDX	ARO	FDM25	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402240	FDX	ARO	FDM18	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+SRR29402241	FDX	ARO	FDM18	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+TA_R1_V3	RGN	ARO	RGMTAR1	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+TA_R1_V4	RGN	ARO	RGMTAR1	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R2_V3	RGN	ARO	RGMUTR2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R2_V4	RGN	ARO	RGMUTR2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R2_V5	RGN	ARO	RGMUTR2	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R4_V3	RGN	ARO	RGMUTR4	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R4_V4	RGN	ARO	RGMUTR4	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R5_V3	RGN	ARO	RGMUTR5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
+Ut_R5_V4	RGN	ARO	RGMUTR5	Recipient	Post FMT	Recipient-Post FMT	ARO-Post FMT
